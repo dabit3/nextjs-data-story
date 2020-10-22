@@ -1,4 +1,4 @@
-# Next.js - The data story
+# Next.js - The data story (A blog built with Next.js & AWS)
 
 > This code goes along with my tutorial [Next.js - The Data Story](https://dev.to/dabit3/next-js-the-data-story-2b0d)
 
