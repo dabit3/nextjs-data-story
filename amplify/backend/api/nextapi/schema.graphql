@@ -1,0 +1,24 @@
+type Post @model
+  @auth(rules: [
+    { allow: owner, ownerField: "username" },
+    { allow: public, operations: [read] }
+  ]) {
+  id: ID!
+  name: String!
+  content: String
+  comments: [Comment] @connection(keyName: "commentsByPostId", fields: ["id"])
+  username: String
+  createdAt: AWSDateTime
+}
+
+type Comment @model
+  @key(name: "commentsByPostId", fields: ["postId"], queryField: "commentsByPostId")
+  @auth(rules: [
+    { allow: owner, ownerField: "username" },
+    { allow: public, operations: [read] }
+  ]) {
+  id: ID!
+  postId: ID!
+  message: String!
+  username: String
+}

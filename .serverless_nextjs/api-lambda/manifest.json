@@ -1,0 +1,1 @@
+{"apis":{"dynamic":{},"nonDynamic":{"/api/check-user":"pages/api/check-user.js","/api/hello":"pages/api/hello.js","/api/posts":"pages/api/posts.js"}}}
