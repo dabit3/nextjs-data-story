@@ -30,7 +30,6 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
   const id = context.params.id;
   const post = await API.graphql({ query: getPost, variables: { id } });
-  console.log({ post: JSON.stringify(post) });
   return {
     props: {
       post: post.data.getPost

@@ -9,13 +9,13 @@
 1. Clone the repo
 
 ```sh
-git clone https://github.com/dabit3/next.js-authentication-aws.git
+git clone https://github.com/dabit3/nextjs-data-story.git
 ```
 
 2. Change into the directory and install the dependencies
 
 ```sh
-cd next.js-authentication-aws
+cd nextjs-data-story
 
 npm install
 ```
