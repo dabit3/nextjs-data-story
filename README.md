@@ -1,6 +1,6 @@
 # Next.js - The data story
 
-> This code goes along with my tutorial []()
+> This code goes along with my tutorial [Next.js - The Data Story](https://dev.to/dabit3/)
 
 ![Next.js - The data story](header.jpg)
 
