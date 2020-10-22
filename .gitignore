@@ -33,6 +33,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+/.serverless/
+/.serverless_nextjs/
+
 amplify/team-provider-info.json
 
 #amplify
