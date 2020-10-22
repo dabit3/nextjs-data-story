@@ -1,22 +1,10 @@
-# Next.js authentication with AWS
+# Next.js - The data story
 
-> This code goes along with my tutorial [The complete Guide to Authentication with Next.js and AWS](https://dev.to/dabit3/the-complete-guide-to-next-js-authentication-2aco)
+> This code goes along with my tutorial []()
 
-![](header.jpg)
+![Next.js - The data story](header.jpg)
 
-This project contains an end to end solution for Next.js authentication on AWS with AWS Amplify.
-
-1. Client authentication
-2. Accessing the user session on the client
-3. Protected client routes
-4. Client-side redirects
-5. Accessing the user session in a server-side route (getServerSideProps)
-6. Protected server routes (getServerSideProps)
-7. Server-side redirects (getServerSideProps)
-8. Accessing the user session in an API route
-9. Deploying the app using the Next.js Serverless Component
-
-### To deploy the authentication service and run the app, follow these steps:
+### To deploy the authentication and API services and run the app, follow these steps:
 
 1. Clone the repo
 
